@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scaled1.0">
+        <meta http-equiv="X-UA-Compatable" content="ie=edge">
+        <title>LOG IN</title>
+        <link rel="stylesheet" href="landing style.css ">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <h2>PILTA  Coffe shop</h2>
+                <ul class="nav">
+                    <p><a  href="landing index.html">Home</a></p>
+                    <p><a href="home index.html">About_us</a></p>
+                    <p><a target="_blank" href="contact.html">Contact_Us</a></p>
+                    <p><a href="Services index.html">Services</a></p>
+                    <p><a target="_blank" href="login index.html">login</a></p>
+                    <p><a href="#Cart" class="cart">cart</a></p>
+                    
+                </ul>
+            </div>
+        </nav>
+        <section class="mainc">
+            <div class="Box">
+               
+          <P>Email:</P>
+            <input type="text"name="email" placeholder="enter your email" value="" autocomplete="on" id="" required><br><br>
+        <p>password:</p>
+            <input type="password" id="show" placeholder="enter your password" value="" id="password" required> 
+        <br><br>
+        <label>Show password</label>
+        <input type="checkbox" name="" onClick="myFunction()"><br><br>
+        <a href="#">forgot your password?</a><br><br>
+        <button type="Login"  class="btn" >Login</button></div>
+    
+    <script type="text/javascript">
+        function myFunction(){
+            var show = document.getElementById('show')
+            if (show.type=='password') {
+                show.type='text';
+            }
+            else{
+                show.type='password'
+            }
+        }
+    </script>
+    </section>
+
+</body>
+</html>
